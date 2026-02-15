@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  
+}
+
+:root{
+  --primary-green:#63AB45;
+  --black:#000000;
+  --primary-black:#100C0B;
+  --secondary-green:#1D231F;
+  --accent-green: #34E0A1;
+  --shadow-green:#4A8631;
+  --white:#ffffff;
+  --background-green:#152f0046;
+  
+
+}
