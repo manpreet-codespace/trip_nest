@@ -42,7 +42,7 @@ function App() {
 
         <div className='hero-container'>
           <img src={newYork} alt='label - New York' className=''/>
-          <h1 className='hero-heading'>Let's Explore Your <span>Family</span> Trip.</h1>
+          <h1 className='hero-heading'>Let's Explore Your <br/><span>Family</span> Trip.</h1>
           <div className=''>
             <a href='tel:+990-737 621 432' className='hero-phone-call'>
             <PhoneCall />

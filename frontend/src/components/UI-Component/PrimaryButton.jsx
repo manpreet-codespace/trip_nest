@@ -10,6 +10,7 @@ const PrimaryButton = (props) => {
         boxShadow: "0 2px 0px var(--shadow-green)",
         color:"white",
         fontWeight:"500",
+        cursor:"pointer"
         
     }
   return (
