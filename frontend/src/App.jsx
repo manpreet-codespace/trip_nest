@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import heroBg1 from "./assets/Overlay+Image.png";
 import heroBg2 from "./assets/Container.png";
 import heroBg3 from "./assets/3.png";
-import { PhoneCall, MapPin,Hotel, Earth, CarFront, SquareChartGantt } from 'lucide-react';
+import { PhoneCall, MapPin,Hotel, Earth, CarFront, SquareChartGantt,TrainFront, Clock9 } from 'lucide-react';
 import newYork from "./assets/Mask Group.png";
 
 
@@ -61,9 +61,35 @@ function App() {
               <button className='search-tab'><SquareChartGantt /> Activities</button>
               <button className='search-tab'><CarFront /> Transport</button>
             </div>
+            <div className='search-fields'>
+              <label className='label'>
+                  <MapPin className='color-primary-green search-icon'/>
+                  <span className='color-primary-green search-label'>Destination</span>
+                  <input type='text' className='search-field' placeholder='Select Destination'/>
+              </label>
+
+              <label className='label'>
+                <TrainFront className='color-primary-green search-icon'/>
+                <span className='color-primary-green search-label'>Tour Type</span>
+                <input type='text' className='search-field' placeholder='Select Tour Type '/>
+              </label>
+
+              <label className='label'>
+                <Clock9 className='color-primary-green search-icon'/>
+                <span className='color-primary-green search-label'>Duration</span>
+                <input type='text' className='search-field' placeholder='Select Month'/>
+              </label>
+
+
+              <label className='label'>
+                <TrainFront className='color-primary-green search-icon'/>
+                <span className='color-primary-green search-label'>Tour Duration</span>
+              <input type='text' className='search-field' placeholder='Select Duration'/>
+              </label>
+              <button className='search'>Search</button>
+            </div>
           </div>
         </div>
-        
 
 
       </section>

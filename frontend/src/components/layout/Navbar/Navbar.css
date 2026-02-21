@@ -27,7 +27,7 @@ nav{
 }
 .nav-link{
     text-decoration: none;
-    color:var(--white);
+    color:rgba(var(--white));
     font-weight: 500;
 
 }
